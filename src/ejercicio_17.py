@@ -1,6 +1,3 @@
-""" Con un ciclo for, solicita al usuario que ingrese un número entero positivo y calcula la suma de sus dígitos, mostrando el resultado final.
- """
-
 while True:
     numero = input("Ingrese un número entero positivo: ")
     if numero.isdigit() and int(numero) >= 0:
